@@ -1,0 +1,16 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"master -d"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sarath",
+  "license": "ISC",
+  "homepage":"http://sartahict.github.io/assignment"
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

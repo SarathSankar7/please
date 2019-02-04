@@ -1,0 +1,47 @@
+
+    {% extends "layout.html" %}
+    {% block content %}
+
+    <div class="container-fluid" >
+       
+                      <div class="row">
+                          <div class="col -md-12">
+                              <h3 align="center"> Creating New Generation Talent Pool</h3>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col -md-4">
+                                <div class="card" style="width: 36em;">
+                                        <img src="{{ url_for('static', filename='img/stud1.jpg') }}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Reach new Heights</h5>
+                                          <p class="card-text">ICT Academy is an initiative of the Government of India in collaboration with the state Governments and Industries. ICT Academy is a not-for-profit society, the first of its kind pioneer venture under the Public-Private-Partnership (PPP) model that endeavours to train the higher education teachers and students thereby exercises on developing the next generation teachers and industry ready students
+                                          </p>
+                                        </div>
+                                      </div>
+                          </div>
+                          <div class="col -md-4" >
+                              <p style="text-align:center;" >
+                                    ICT Academy was started to meet the skill requirements of the industry and generate more employment especially in tier 2 and 3 towns, the rural parts of the country. The organization was formed with representations from the State Government of Tamil Nadu, leading companies in the ICT industry and National Association of Software Services Companies (NASSCOM) in India. </p>
+
+                                    <p style="text-align:center;" >       With training of teachers and students as the primary objective, ICT Academy has been working through a seven pillar program in the areas of Faculty Development, Student Skill Development, Entrepreneurship Development, Youth Empowerment, Industry-Institute Interaction, Digital Empowerment and Research & Publications. </p>
+                                    
+                                           
+                              
+                          </div>
+                          <div class="col -md-4">
+                                <div class="card" style="width: 36em;">
+                                        <img src="{{ url_for('static', filename='img/stud2.jpg') }}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Are you ready?</h5>
+                                          <p class="card-text">You can do it too
+                                          </p>
+                                        </div>
+                                      </div>
+
+                          </div>
+                      </div>
+                    
+    </div>
+  
+    {% endblock %}
