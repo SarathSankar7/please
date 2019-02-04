@@ -1,5 +1,7 @@
 from flask import Flask, render_template
+import os
 app = Flask(__name__)
+app.config['SECRET-KEY'] =os.environ.get('SECRET_KEY','XYZ')
 @app.route('/')
 def home():
     return render_template('home.html')
