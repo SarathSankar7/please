@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "deploy":"master -d assignment"
+   "deploy":"gh -d assignment"
   },
   "author": "sarath",
   "license": "ISC",
