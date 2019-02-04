@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "deploy":"gh-pag -d assignment"
+  
   },
   "author": "sarath",
   "license": "ISC",
-  "homepage":"http://sartahict.github.io/assignment",
+
   "dependencies": {
     "express": "^4.16.4"
   }
