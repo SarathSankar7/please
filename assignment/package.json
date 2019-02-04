@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy":"master -d"
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "deploy":"master -d assignment"
   },
   "author": "sarath",
   "license": "ISC",
-  "homepage":"http://sartahict.github.io/assignment"
+  "homepage":"http://sartahict.github.io/assignment",
   "dependencies": {
     "express": "^4.16.4"
   }
